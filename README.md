@@ -35,6 +35,7 @@ The goal is to build confidence step by step and make Python learning easy for a
 | 01 | Python Basics | `Learn The Basics/` | Intro to Python, comments, input/output, and sample programs |
 | 02 | Data Types & Variables | `DataTypes_&_Variables/` | Practice with basic variable and data type exercises |
 | 03 | Beginner Coding Practice | `*.py` files | Small programs to understand Python syntax and logic |
+| 04 | Extra Practice | `DataTypes_&_Variables/DataTypes/4thtest.py` | Added extra Python practice file for more beginner coding exercises |
 
 ---
 
@@ -50,7 +51,8 @@ Python-for-Beginners/
 │   └── DataTypes/
 │       ├── 1sttest.py
 │       ├── 2ndtest.py
-│       └── 3rdtest.py
+│       ├── 3rdtest.py
+│       └── 4thtest.py
 │
 ├── .gitignore
 ├── LICENSE
