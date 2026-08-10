@@ -4,7 +4,7 @@
 
   # 🐍 Python for Beginners
 
-  <b>Learn Python from scratch with practical examples, beginner-friendly notes, and simple coding exercises.</b>
+  <b>Beginner-friendly Python practice repository covering variables, data types, type conversion, and basic examples.</b>
 
   ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
   ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -15,77 +15,98 @@
 
 ## 📘 About This Repository
 
-This repository is a beginner-focused Python learning project designed to help students understand the fundamentals of programming in a simple and practical way.
+This repository is designed for beginners who want to learn Python step by step using simple examples and practical scripts. It focuses on the core fundamentals of Python programming, especially variables and built-in data types.
 
-It includes:
-- basic Python syntax
-- print and input usage
-- comments and pseudocode
-- variables and data types
-- beginner exercises and sample scripts
+The project includes:
+- variables and assignments
+- Python data types
+- type checking with `type()`
+- type conversion
+- example-based practice files
+- beginner-friendly explanations
 
-The goal is to build confidence step by step and make Python learning easy for absolute beginners.
+The main goal is to build confidence by learning through small, real examples.
 
 ---
 
-## 📚 Learning Path
+## 📚 Learning Topics
 
 | No | Topic | Folder / File | Description |
 | :---: | :--- | :--- | :---: |
-| 01 | Python Basics | `Learn The Basics/` | Intro to Python, comments, input/output, and sample programs |
-| 02 | Data Types & Variables | `DataTypes_&_Variables/` | Practice with basic variable and data type exercises |
-| 03 | Beginner Coding Practice | `*.py` files | Small programs to understand Python syntax and logic |
-| 04 | Extra Practice | `DataTypes_&_Variables/DataTypes/4thtest.py` | Added extra Python practice file for more beginner coding exercises |
+| 01 | Python Basics | `Learn The Basics/` | Introductory Python notes and example scripts |
+| 02 | Variables | `DataTypes_&_Variables/Variables/Examples.py` | Declaring, casting, and using variables |
+| 03 | Numeric Types | `DataTypes_&_Variables/DataTypes/1sttest.py` | `int`, `float`, `complex`, and `bool` examples |
+| 04 | String Type | `DataTypes_&_Variables/DataTypes/2ndtest.py` | Working with strings and slicing |
+| 05 | Sequence Types | `DataTypes_&_Variables/DataTypes/3rdtest.py` | `list`, `tuple`, and `range` |
+| 06 | Binary Types | `DataTypes_&_Variables/DataTypes/4thtest.py` | `bytes`, `bytearray`, and `memoryview` |
+| 07 | Dictionary & Set | `DataTypes_&_Variables/DataTypes/5thtest.py`, `6thtest.py` | Key-value data and unique collections |
+| 08 | Boolean & None | `DataTypes_&_Variables/DataTypes/7thtest.py`, `8thtest.py` | Logical values and null-like data |
+| 09 | Type Conversion | `DataTypes_&_Variables/DataTypes/TypeConversion.py` | Converting between data types |
 
 ---
 
 ## 🗂️ Project Structure
 
 ```text
-Python-for-Beginners/
+Start_With_Python/
 ├── Learn The Basics/
 │   ├── Basic_Intro.md
 │   └── test.py
 │
 ├── DataTypes_&_Variables/
-│   └── DataTypes/
-│       ├── 1sttest.py
-│       ├── 2ndtest.py
-│       ├── 3rdtest.py
-│       └── 4thtest.py
+│   ├── DataTypes/
+│   │   ├── 1sttest.py
+│   │   ├── 2ndtest.py
+│   │   ├── 3rdtest.py
+│   │   ├── 4thtest.py
+│   │   ├── 5thtest.py
+│   │   ├── 6thtest.py
+│   │   ├── 7thtest.py
+│   │   ├── 8thtest.py
+│   │   ├── DataTypes_Details.md
+│   │   └── TypeConversion.py
+│   │
+│   └── Variables/
+│       └── Examples.py
 │
-├── .gitignore
 ├── LICENSE
 ├── README.md
-└── .idea/
+└── .gitignore
 ```
 
 ---
 
 ## 🔍 Topics Covered
 
-- Python installation and setup
-- `print()` and `input()`
-- Variables and assignments
-- Data types
-- Comments in Python
-- Beginner problem-solving exercises
-- Writing and running simple scripts
+- Python variables and assignment
+- `print()` output and basic formatting
+- Data type checking with `type()`
+- Numeric, string, list, tuple, dictionary, set, boolean, and `None` types
+- Binary-related data types
+- Type conversion using `int()`, `float()`, and `str()`
+- Beginner pattern examples for everyday Python practice
 
 ---
 
 ## 🚀 How to Run a Python File
 
-Open the terminal in the project folder and run:
+Open a terminal in the project folder and run:
 
 ```bash
-python filename.py
+python "path/to/file.py"
 ```
 
-Example:
+Examples:
 
 ```bash
-python "Learn The Basics/test.py"
+python "DataTypes_&_Variables\Variables\Examples.py"
+python "DataTypes_&_Variables\DataTypes\1sttest.py"
+```
+
+On Linux or macOS, you may use:
+
+```bash
+python3 "DataTypes_&_Variables/Variables/Examples.py"
 ```
 
 ---
@@ -93,17 +114,18 @@ python "Learn The Basics/test.py"
 ## ✅ Beginner Goals
 
 By the end of this repository, you should be able to:
-- understand basic Python syntax
-- write simple programs
-- use variables and input/output correctly
-- practice coding through small exercises
-- build a strong foundation for future Python learning
+- understand how variables work in Python
+- identify common built-in data types
+- use `type()` to check values
+- convert values between data types
+- write and run simple Python programs confidently
+- build a strong base for future Python topics like loops, conditions, and functions
 
 ---
 
 ## 🤝 Connect
 
-If you are learning Python too, feel free to connect and share progress.
+If you are learning Python too, feel free to explore, practice, and keep improving.
 
 <div align="left">
   <a href="https://github.com/Biratporbo/">
@@ -113,4 +135,4 @@ If you are learning Python too, feel free to connect and share progress.
 
 ---
 
-> “Start with small steps, practice every day, and keep coding.”
+> “Start with small steps, practice consistently, and keep coding.”
