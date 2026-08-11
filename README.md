@@ -15,13 +15,15 @@
 
 ## 📘 About This Repository
 
-This repository is designed for beginners who want to learn Python step by step using simple examples and practical scripts. It focuses on the core fundamentals of Python programming, especially variables and built-in data types.
+This repository is designed for beginners who want to learn Python step by step using simple examples and practical scripts. It focuses on the core fundamentals of Python programming, including variables, built-in data types, type conversion, and operators.
 
 The project includes:
 - variables and assignments
 - Python data types
 - type checking with `type()`
 - type conversion
+- arithmetic operators
+- comparison operators
 - example-based practice files
 - beginner-friendly explanations
 
@@ -42,6 +44,8 @@ The main goal is to build confidence by learning through small, real examples.
 | 07 | Dictionary & Set | `DataTypes_&_Variables/DataTypes/5thtest.py`, `6thtest.py` | Key-value data and unique collections |
 | 08 | Boolean & None | `DataTypes_&_Variables/DataTypes/7thtest.py`, `8thtest.py` | Logical values and null-like data |
 | 09 | Type Conversion | `DataTypes_&_Variables/DataTypes/TypeConversion.py` | Converting between data types |
+| 10 | Arithmetic Operators |	`Operators/Arithmetic.py` | Addition, subtraction, multiplication, division, modulus exponentiation, and floor division
+| 11 | Comparison Operators | `Operators/Comparison.py` | Comparing values using ==, !=, <, >, <=, and >=
 
 ---
 
@@ -69,6 +73,10 @@ Start_With_Python/
 │   └── Variables/
 │       └── Examples.py
 │
+├── Operators/
+|   └── Arithmetic.py
+|   └── Comparison.py
+|
 ├── LICENSE
 ├── README.md
 └── .gitignore
@@ -85,7 +93,9 @@ Start_With_Python/
 - Binary-related data types
 - Type conversion using `int()`, `float()`, and `str()`
 - Beginner pattern examples for everyday Python practice
-
+- Arithmetic operators: `+`, `-`, `*`, `/`, `%`, `**`, and `//`
+- Comparison operators: `==`, `!=`, `<`, `>`, `<=`, and `>=`
+- Beginner-friendly examples for practicing Python fundamentals
 ---
 
 ## 🚀 How to Run a Python File
@@ -118,6 +128,8 @@ By the end of this repository, you should be able to:
 - identify common built-in data types
 - use `type()` to check values
 - convert values between data types
+- understand and use basic arithmetic operators
+- compare values using comparison operators
 - write and run simple Python programs confidently
 - build a strong base for future Python topics like loops, conditions, and functions
 
