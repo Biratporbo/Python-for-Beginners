@@ -44,8 +44,10 @@ The main goal is to build confidence by learning through small, real examples.
 | 07 | Dictionary & Set | `DataTypes_&_Variables/DataTypes/5thtest.py`, `6thtest.py` | Key-value data and unique collections |
 | 08 | Boolean & None | `DataTypes_&_Variables/DataTypes/7thtest.py`, `8thtest.py` | Logical values and null-like data |
 | 09 | Type Conversion | `DataTypes_&_Variables/DataTypes/TypeConversion.py` | Converting between data types |
-| 10 | Arithmetic Operators |	`Operators/Arithmetic.py` | Addition, subtraction, multiplication, division, modulus exponentiation, and floor division
-| 11 | Comparison Operators | `Operators/Comparison.py` | Comparing values using ==, !=, <, >, <=, and >=
+| 10 | Arithmetic Operators |	`Operators/Arithmetic.py` | Addition, subtraction, multiplication, division, modulus exponentiation, and floor division |
+| 11 | Comparison Operators | `Operators/Comparison.py` | Comparing values using ==, !=, <, >, <=, and >= |
+| 12 | Assignment Operators | `Operators/Assignment.py` | Using augmented assignment operators such as +=, -=, *=, /=, %= and more |
+| 13 | Logical Operators | `Operators/Logical.py` | Using and, or, and not with Boolean and non-Boolean values |
 
 ---
 
@@ -74,8 +76,10 @@ Start_With_Python/
 │       └── Examples.py
 │
 ├── Operators/
-|   └── Arithmetic.py
-|   └── Comparison.py
+|   ├── Arithmetic.py
+|   ├── Comparison.py
+│   ├── Assignment.py 
+│   └── Logical.py
 |
 ├── LICENSE
 ├── README.md
@@ -95,7 +99,10 @@ Start_With_Python/
 - Beginner pattern examples for everyday Python practice
 - Arithmetic operators: `+`, `-`, `*`, `/`, `%`, `**`, and `//`
 - Comparison operators: `==`, `!=`, `<`, `>`, `<=`, and `>=`
+- Augmented assignment operators: +=, -=, *=, /=, %=, **=, and //=
+- Logical operators: and, or, and not
 - Beginner-friendly examples for practicing Python fundamentals
+
 ---
 
 ## 🚀 How to Run a Python File
@@ -130,6 +137,8 @@ By the end of this repository, you should be able to:
 - convert values between data types
 - understand and use basic arithmetic operators
 - compare values using comparison operators
+- use augmented assignment operators
+- understand and use logical operators
 - write and run simple Python programs confidently
 - build a strong base for future Python topics like loops, conditions, and functions
 
