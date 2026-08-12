@@ -4,7 +4,7 @@
 
   # 🐍 Python for Beginners
 
-  <b>Beginner-friendly Python practice repository covering variables, data types, type conversion, and basic examples.</b>
+  <b>Beginner-friendly Python practice repository covering variables, data types, type conversion, operators, and basic examples.</b>
 
   ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
   ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
